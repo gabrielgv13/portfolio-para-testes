@@ -69,9 +69,12 @@ header {
 
 .center__image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    width: 1000px;
 }
 
 .button__hint {
+    display: inline-block;
 }
