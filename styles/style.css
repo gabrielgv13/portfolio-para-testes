@@ -36,9 +36,10 @@ header {
 
 .top__nav__sections {
     font-family: var(--fonteA);
-    color: var(--cor-Palt-2);
     font-size: larger;
-    display: flex ;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -52,6 +53,7 @@ header {
 .footer {
     font-family: var(--fonteB);
     font-size: x-large;
+    font-weight: bold;
     display: flex;
     color: var(--cor-Palt-1);
     justify-content: space-evenly;
@@ -76,5 +78,7 @@ header {
 }
 
 .button__hint {
-    display: inline-block;
+    border: 90px var(--cor-Palt-2);
+    color: var(--cor-Palt-2);
+    font-weight: bold;
 }
