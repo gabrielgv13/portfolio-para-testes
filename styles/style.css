@@ -38,9 +38,12 @@ header {
     font-family: var(--fonteA);
     font-size: larger;
     display: flex;
-    margin-top: 2%;
+    margin-top: 0%;
     flex-direction: row;
     justify-content: space-evenly;
+    border: 2px solid var(--cor-Palt-4);
+    padding: 1%;
+
 }
 
 .focus {
@@ -58,7 +61,8 @@ header {
     color: var(--cor-Palt-1);
     justify-content: space-evenly;
     min-height: 22px;
-    
+    border: 2px solid var(--cor-Palt-3);
+    padding: 5px;
 }
 
 .small__text__articles {
@@ -78,7 +82,16 @@ header {
 }
 
 .button__hint {
-    border: 90px var(--cor-Palt-2);
     color: var(--cor-Palt-2);
     font-weight: bold;
+    border: 2px solid var(--cor-Palt-4);
+    padding: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.topics__numbered {
+    
 }
