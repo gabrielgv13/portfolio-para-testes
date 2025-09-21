@@ -46,7 +46,7 @@ header {
 
 }
 
-.focus {
+.title {
     font-family: var(--fonteB);
     color: var(--cor-Palt-1);
     display: flex;
@@ -69,6 +69,7 @@ header {
     font-family: var(--fonteA);
     justify-content: center;
     font-size: larger;
+    margin-top: 3px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -93,5 +94,6 @@ header {
 }
 
 .topics__numbered {
-    
+    padding-left: 10%;
+    padding-right: 10%;
 }
