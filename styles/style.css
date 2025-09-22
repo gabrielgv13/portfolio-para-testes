@@ -25,6 +25,11 @@ html, body {
     flex-direction: column;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 main {
     flex: 1;
   }
@@ -96,4 +101,9 @@ header {
 .topics__numbered {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.ho__image__display{
+    display: flex;
+    flex-direction: row;
 }
