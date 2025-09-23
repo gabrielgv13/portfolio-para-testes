@@ -10,6 +10,7 @@
     --cor-Palt-2: #53443a;
     --cor-Palt-3: #86ae8f;
     --cor-Palt-4: #8f6950;
+    --cor-Palt-5: #b39589;
 }
 
 |* {
@@ -83,6 +84,18 @@ header {
     color: var(--cor-Palt-2);
     font-weight: bold;
     border: 2px solid var(--cor-Palt-4);
+    padding: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button__mouseover {
+    color: var(--cor-Backg);
+    background-color: var(--cor-Palt-5);
+    font-weight: bold;
+    border: 2px solid var(--cor-Palt-2);
     padding: 8px;
     padding-left: 5%;
     padding-right: 5%;
