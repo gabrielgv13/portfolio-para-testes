@@ -71,6 +71,19 @@ header {
     padding: 5px;
 }
 
+.remove__nav__link {
+    font-family: var(--fonteB);
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    color: var(--cor-Palt-1);
+    justify-content: space-evenly;
+    min-height: 22px;
+    padding: 5px;
+    margin-top: 18px;
+    text-decoration: none;
+}
+
 .small__text__articles {
     font-family: var(--fonteA);
     justify-content: center;
