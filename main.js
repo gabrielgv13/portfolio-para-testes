@@ -8,3 +8,13 @@ function hover_buttons() {
         });
 }
 
+
+function hover_links() {
+    const listLinks = document.querySelectorAll(".remove__nav__link")
+
+    listLinks.forEach(link => {
+        link.addEventListener("mouseover", () => {link.classList.add("remove__nav__link__anim");})
+        link.addEventListener("mouseout", () => {link.classList.remove("remove__nav__link__anim");})
+    })
+}
+
