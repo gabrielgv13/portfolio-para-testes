@@ -66,24 +66,10 @@ header {
     display: flex;
     color: var(--cor-Palt-1);
     justify-content: space-evenly;
-    min-height: 22px;
+    height: 80px;
+    width: auto;
     border: 2px solid var(--cor-Palt-3);
     padding: 5px;
-}
-
-.remove__nav__link {
-    font-family: var(--fonteB);
-    font-size: x-large;
-    font-weight: bold;
-    display: flex;
-    color: var(--cor-Palt-1);
-    justify-content: space-evenly;
-    min-height: 22px;
-    padding: 5px;
-    margin-top: 18px;
-    margin-bottom: 18px;
-    text-decoration: none;
-    transition: all 0.3s ease;
 }
 
 .para-contato {
@@ -98,6 +84,23 @@ header {
     margin-top: 18px;
     margin-bottom: 18px;
     text-decoration: none;
+}
+
+/* TODO: ico_email.svg gets obstructed by the on hover animation of the email address, must fix */
+
+.remove__nav__link {
+    font-family: var(--fonteB);
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    color: var(--cor-Palt-1);
+    justify-content: space-evenly;
+    min-height: 22px;
+    padding: 5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .remove__nav__link__anim {
@@ -139,7 +142,7 @@ header {
 
 .button__mouseover {
     color: var(--cor-Backg);
-    background-color: var(--cor-Palt-5);
+    background-color: var(--cor-Palt-2);
     font-weight: bold;
     border: 2px solid var(--cor-Palt-2);
     padding: 8px;
@@ -170,3 +173,18 @@ header {
     height: 300px;
     width: auto;
 }
+
+.icon__image {
+    height: 38px;
+    width: auto;
+    padding-right: 10px;
+    fill: var(--cor-Palt-1);
+}
+
+.text__with__icon {
+    display: flex;
+    flex-direction: row;
+    text-size-adjust: 80%;
+    align-items: center;
+}
+
